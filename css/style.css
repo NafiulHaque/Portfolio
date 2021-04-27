@@ -272,8 +272,18 @@ box-shadow: 0 0 21px rgba(0,0,0,.27);
 
 /* =======================works-end======================= */
 
-/* =======================projects-start======================= */
-/* =======================projects-end======================= */
+/* =======================market-place-start======================= */
+.market-place .container .fiv-card{
+  margin: 20px auto;
+  width: 200px;
+}
+.market-place .container .fiv-card .fiverr-seller-widget {
+  padding: 5px;
+  border: #1985ff 2px solid;
+  border-radius: 10px;
+  box-shadow: 0 0 21px rgba(0,0,0,.27);
+}
+/* =======================market-place-end======================= */
 
 /* =======================projects-start======================= */
 /* =======================projects-end======================= */
