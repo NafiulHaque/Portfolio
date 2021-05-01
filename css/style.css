@@ -157,8 +157,11 @@ div.content {
   /* background-image: url("../image/projects-img/148137786_324203772462257_7517775719615260978_n.jpg"); */
   z-index: 3;
   margin-top: 37px;
+  position: relative;
+  transition: 2s;
 
 }
+
 .Projects .project-flex .items .item-thumb{
   background-position: top center;
   background-size: cover;
@@ -168,6 +171,41 @@ div.content {
   border-radius: 15px;
   border: 2px solid #1985ff;
 
+}
+.Projects .project-flex .items .item-thumb .btn-1{
+  z-index: 6;
+  position: absolute;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  transition: ease .7s;
+  background: rgba(0, 0, 0, 0.5);
+}
+.Projects .project-flex .items .item-thumb .btn-1 a{
+  border: 2px solid #1985ff;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 3px 20px;
+  background-color: #fff;
+ 
+  transition: ease .5s;
+  transform: translateY(100%);
+  z-index: 7;
+}
+.Projects .project-flex .items .item-thumb .btn-1 a:hover{
+  background-color: #1985ff ;
+  color: #fff;
+}
+.Projects .project-flex .items .item-thumb .btn-1:hover{
+  opacity: 1;
+}
+.Projects .project-flex .items .item-thumb .btn-1:hover a{
+  transform: translateY(0%);
+  z-index: 50;
 }
 /* -----------------projects-end---------- */
 
