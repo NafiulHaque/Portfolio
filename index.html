@@ -30,12 +30,40 @@
             <img src="./image/profile/profile.jpg" alt="">
         </div>
         <h4 class="text-center">Nafiul Haque</h4>
-        <hr class="bg-white p-1">
-        <a class="active" href="#home"><i class="fa fa-home"></i> Home</a>
-        <a href="#services"><i class="fa fa-street-view"></i> Services</a>
-        <a href="#Projects"><i class="fa fa-wordpress"></i> Projects</a>
-        <a href="#Contact"><i class="fa fa-phone"></i> Contact</a>
-        <a href="#about">About</a>
+        <hr class="bg-white p-1 mb-4">
+        <div class="active list">
+            <b></b>
+            <c></c>
+            <a href="#home">
+
+                <i class="fa fa-home"></i> Home
+            </a>
+        </div>
+
+        <div class="list">
+            <b></b>
+            <c></c>
+            <a class="list" href="#services"><i class="fa fa-street-view"></i> Services</a>
+        </div>
+
+        <div class="list">
+            <b></b>
+            <c></c>
+            <a class="list" href="#Projects"><i class="fa fa-wordpress"></i> Projects</a>
+        </div>
+        <div class="list">
+            <b></b>
+            <c></c>
+            <a class="list" href="#Contact"><i class="fa fa-phone"></i> Contact</a>
+        </div>
+        <div class="list">
+            <b></b>
+            <c></c>
+            <a class="list" href="#about">About</a>
+        </div>
+
+
+
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active">
@@ -411,6 +439,19 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <script>
+        let list = document.querySelectorAll('.list');
+        for (let i = 0; i < list.length; i++) {
+            list[i].onclick = function () {
+                let j = 0;
+                while (j < list.length) {
+                    list[j++].className = 'list';
+                }
+                list[i].className = 'list active';
+            }
+        }
+    </script>
 </body>
 
 </html>

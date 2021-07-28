@@ -22,6 +22,7 @@ body {
   height: 100%;
   overflow: auto;
   border-right: 10px solid #1985ff;
+ 
 }
 
 /* Sidebar links */
@@ -47,21 +48,72 @@ body {
 }
 
 /* Active/current link */
-.sidebar a.active {
+.sidebar div.active {
   background-color: #1985ff;
   color: white;
   margin: 10px 0 10px 10px ;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
+  transition-duration: .5s;
 
+}
+.sidebar > div{
+  position: relative;
+}
+.sidebar b{
+  position: absolute;
+  top: -20px;
+  height: 20px;
+  width: 100%;
+  background-color: #1985ff;
+  display: none;
+  /* z-index: 10; */
+}
+.sidebar b::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #5e5a5a;
+  border-bottom-right-radius: 20px;
+}
+
+.sidebar c {
+  position: absolute;
+  bottom: -20px;
+  height: 20px;
+  width: 100%;
+  background-color: #1985ff;
+  display: none;
+  /* z-index: 10; */
+}
+.sidebar c::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #5e5a5a;
+  border-top-right-radius: 20px;
+}
+
+.sidebar div.active b,
+.sidebar div.active c{
+  display: block;
+  transition: all 2s ease;
+  /* transition-duration: 1s; */
+  
 }
 
 /* Links on mouse-over */
-.sidebar a:hover:not(.active) {
+/* .sidebar a:hover:not(.active) {
   background-color: rgb(66, 102, 180);
   color: white;
   text-decoration: none;
-}
+} */
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
