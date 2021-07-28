@@ -21,13 +21,14 @@ body {
   position: fixed;
   height: 100%;
   overflow: auto;
+  border-right: 10px solid #1985ff;
 }
 
 /* Sidebar links */
 .sidebar a {
   display: block;
   color: rgb(255, 255, 255);
-  padding: 16px;
+  padding: 7px;
   text-decoration: none;
 }
 
@@ -49,6 +50,10 @@ body {
 .sidebar a.active {
   background-color: #1985ff;
   color: white;
+  margin: 10px 0 10px 10px ;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+
 }
 
 /* Links on mouse-over */
