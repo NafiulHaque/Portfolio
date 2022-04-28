@@ -17,10 +17,14 @@
 .sidebar__img{
     display: flex;
     align-items: center;
+   
 }
 .sidebar__title>div>img{
     width: 75px;
     object-fit: contain;
+    border-radius: 50%;
+    border: rgba(62,161,117,0.3) solid 5px;
+    margin-right: 5px;
 }
 .sidebar__title>div>h1{
     font-size: 18px;
@@ -29,6 +33,8 @@
 .sidebar__title>.sidebar__close__icon{
     font-size: 18px;
     display: none;
+    padding-left: 5px;
+    /* display: inline-block; */
 }
 .sidebar__menu >h2{
     color: #3ea175;

@@ -36,6 +36,50 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
                     <i className='fa fa-home'></i>
                     <a href='#'>Abouts</a>
                 </div>
+                <div className='sidebar__link'>
+                    <i className='fa fa-home'></i>
+                    <a href='#'>Abouts</a>
+                </div>
+                <div className='sidebar__link'>
+                    <i className='fa fa-home'></i>
+                    <a href='#'>Abouts</a>
+                </div>
+                <div className='sidebar__link'>
+                    <i className='fa fa-home'></i>
+                    <a href='#'>Abouts</a>
+                </div>
+                <div className='sidebar__link'>
+                    <i className='fa fa-home'></i>
+                    <a href='#'>Abouts</a>
+                </div>
+                <div className='sidebar__link'>
+                    <i className='fa fa-home'></i>
+                    <a href='#'>Abouts</a>
+                </div>
+                <div className='sidebar__link'>
+                    <i className='fa fa-home'></i>
+                    <a href='#'>Abouts</a>
+                </div>
+                <div className='sidebar__link'>
+                    <i className='fa fa-home'></i>
+                    <a href='#'>Abouts</a>
+                </div>
+                <div className='sidebar__link'>
+                    <i className='fa fa-home'></i>
+                    <a href='#'>Abouts</a>
+                </div>
+                <div className='sidebar__link'>
+                    <i className='fa fa-home'></i>
+                    <a href='#'>Abouts</a>
+                </div>
+                <div className='sidebar__link'>
+                    <i className='fa fa-home'></i>
+                    <a href='#'>Abouts</a>
+                </div>
+                <div className='sidebar__link'>
+                    <i className='fa fa-home'></i>
+                    <a href='#'>Abouts</a>
+                </div>
             </div>
         </div>
     )
