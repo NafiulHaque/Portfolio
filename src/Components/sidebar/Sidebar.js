@@ -2,6 +2,10 @@ import React from 'react';
 import "./Sidebar.css";
 import pic from "../../img/profile/profile.jpg";
 
+import { Routes, Route, NavLink } from 'react-router-dom';
+import Services from '../Pages/Services/Services';
+
+
 const Sidebar = ({ sidebarOpen, closeSidebar }) => {
     return (
         <div className={sidebarOpen ? "sidebar_responsive" : ""} id="sidebar">
@@ -15,23 +19,33 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
                 </div>
             </div>
             <div className='sidebar__menu'>
-                <div className='sidebar__link active__menu__link'>
-                    <i className='fa fa-home'></i>
-                    <a href='#'>Home</a>
-                </div>
+                <NavLink to="/" className={(navData) => navData.isActive ? "active__menu__link" : ""}>
+                    <div className='sidebar__link'>
+                        <i className='fa fa-home'></i>
+                        <span>Home</span>
+                    </div>
+                </NavLink>
+
+
                 <h2>OP</h2>
-                <div className='sidebar__link'>
-                    <i className='fa fa-home'></i>
-                    <a href='#'>Services</a>
-                </div>
-                <div className='sidebar__link'>
-                    <i className='fa fa-home'></i>
-                    <a href='#'>Projects</a>
-                </div>
-                <div className='sidebar__link'>
-                    <i className='fa fa-home'></i>
-                    <a href='#'>Contact</a>
-                </div>
+                <NavLink to="/Services" className={(navData) => navData.isActive ? "active__menu__link" : ""}>
+                    <div className='sidebar__link'>
+                        <i className='fa fa-home'></i>
+                        <a href='#'>Services</a>
+                    </div>
+                </NavLink>
+                <NavLink to="/works" className={(navData) => navData.isActive ? "active__menu__link" : ""}>
+                    <div className='sidebar__link'>
+                        <i className='fa fa-home'></i>
+                        <a href='#'>Works On</a>
+                    </div>
+                </NavLink>
+                <NavLink to="/projects" className={(navData) => navData.isActive ? "active__menu__link" : ""}>
+                    <div className='sidebar__link'>
+                        <i className='fa fa-home'></i>
+                        <a href='#'>Projects</a>
+                    </div>
+                </NavLink>
                 <div className='sidebar__link'>
                     <i className='fa fa-home'></i>
                     <a href='#'>Abouts</a>
@@ -81,7 +95,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
                     <a href='#'>Abouts</a>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

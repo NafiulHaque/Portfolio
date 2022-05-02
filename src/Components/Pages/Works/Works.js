@@ -1,4 +1,8 @@
 import "./Works.css";
+import cover1 from "../../../img/I will install and setup wordpress with demo theme 1.jpg";
+import cover2 from "../../../img/I will install and setup wordpress with demo theme.jpg";
+import cover3 from "../../../img/I will provide psd or xd to html css bootstrap responsive website.jpg";
+
 
 import React from 'react'
 
@@ -11,9 +15,7 @@ const Works = () => {
             <div className="box__grp">
                 <div className="box my-5">
                     <div className="items hvr-grow">
-                        <div className="img"
-                        >
-                        </div>
+                        <img className="img" src={cover1} />
                         <div className="order hvr-buzz">
                             <a href="">Order Now</a>
                         </div>
@@ -22,9 +24,9 @@ const Works = () => {
                         </div>
                     </div>
                     <div className="items hvr-grow">
-                        <div className="img"
-                        >
-                        </div>
+                        <img className="img" src={cover2}
+                        />
+
                         <div className="order hvr-buzz">
                             <a href="">Order Now</a>
                         </div>
@@ -33,9 +35,9 @@ const Works = () => {
                         </div>
                     </div>
                     <div className="items hvr-grow">
-                        <div className="img"
-                        >
-                        </div>
+                        <img src={cover3} className="img"
+                        />
+
                         <div className="order hvr-buzz">
                             <a href="">Order Now</a>
                         </div>
