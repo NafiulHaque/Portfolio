@@ -30,70 +30,27 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
                 <h2>OP</h2>
                 <NavLink to="/Services" className={(navData) => navData.isActive ? "active__menu__link" : ""}>
                     <div className='sidebar__link'>
-                        <i className='fa fa-home'></i>
+                        <i class="fa fa-desktop"></i>
                         <a href='#'>Services</a>
                     </div>
                 </NavLink>
                 <NavLink to="/works" className={(navData) => navData.isActive ? "active__menu__link" : ""}>
                     <div className='sidebar__link'>
-                        <i className='fa fa-home'></i>
+                        <i class="fa fa-briefcase"></i>
                         <a href='#'>Works On</a>
                     </div>
                 </NavLink>
                 <NavLink to="/projects" className={(navData) => navData.isActive ? "active__menu__link" : ""}>
                     <div className='sidebar__link'>
-                        <i className='fa fa-home'></i>
+                        <i className='fa fa-file'></i>
                         <a href='#'>Projects</a>
                     </div>
                 </NavLink>
                 <div className='sidebar__link'>
-                    <i className='fa fa-home'></i>
+                    <i className='fa fa-address-card'></i>
                     <a href='#'>Abouts</a>
                 </div>
-                <div className='sidebar__link'>
-                    <i className='fa fa-home'></i>
-                    <a href='#'>Abouts</a>
-                </div>
-                <div className='sidebar__link'>
-                    <i className='fa fa-home'></i>
-                    <a href='#'>Abouts</a>
-                </div>
-                <div className='sidebar__link'>
-                    <i className='fa fa-home'></i>
-                    <a href='#'>Abouts</a>
-                </div>
-                <div className='sidebar__link'>
-                    <i className='fa fa-home'></i>
-                    <a href='#'>Abouts</a>
-                </div>
-                <div className='sidebar__link'>
-                    <i className='fa fa-home'></i>
-                    <a href='#'>Abouts</a>
-                </div>
-                <div className='sidebar__link'>
-                    <i className='fa fa-home'></i>
-                    <a href='#'>Abouts</a>
-                </div>
-                <div className='sidebar__link'>
-                    <i className='fa fa-home'></i>
-                    <a href='#'>Abouts</a>
-                </div>
-                <div className='sidebar__link'>
-                    <i className='fa fa-home'></i>
-                    <a href='#'>Abouts</a>
-                </div>
-                <div className='sidebar__link'>
-                    <i className='fa fa-home'></i>
-                    <a href='#'>Abouts</a>
-                </div>
-                <div className='sidebar__link'>
-                    <i className='fa fa-home'></i>
-                    <a href='#'>Abouts</a>
-                </div>
-                <div className='sidebar__link'>
-                    <i className='fa fa-home'></i>
-                    <a href='#'>Abouts</a>
-                </div>
+
             </div>
         </div >
     )
