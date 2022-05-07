@@ -1,47 +1,76 @@
 #works{
   grid-area: main;
 }
-.box{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    color:#a5aaad;
-  }
-.box .items{
-  width: 300px;
-  background-color: #191A19;
-  height: 320px;
+.plate{
+  display: flex;
+  height: 200px;
+  border: 2px solid #3ea175;
+  margin: 10px;
   border-radius: 15px;
+  flex-direction: row;
+  background-color: #191A19;
+}
+.plate .left-p{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  /* border: #1985ff 2px solid; */
-  box-shadow: 0 0 21px rgba(0,0,0,.27); 
-  margin-top: 20px;
+  justify-content: space-around;
   padding: 10px;
+/* flex: 80%; */
+}
+.plate .left-p > a{
+  padding: 3px 20px;
+  border: rgba(62,161,117,0.3) 2px solid;
+  margin: 0 !important;
+  border-radius: 10px; 
+  text-decoration: none;
+  color: #3ea175;
+}
+.plate .left-p >a:hover{
+  background-color: rgba(62,161,117,0.3);
+  border:#3ea175 2px solid;
+  color: #3ea175;
+}
+.plate .rp{
+  width: 300px;
+  height: 100%;
+}
+.plate .right-p{
+  /* max-width: 600px; */
+  min-width: 300px;
+  height: 100%;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background-position:center;
+  background-size: cover;
+ 
+}
+
+@media only screen and (max-width:978px ){
+  #works{
+    display: flex;
+    flex-wrap: wrap;
   }
-.box .items .img{
-    width: 100%;
-    height: 190px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
-    
+  .plate{
+    flex-direction: column;
+    height: 400px;
+    overflow: hidden;
+    justify-content: space-between;
+    flex:40%;
+    max-width: 50%;
   }
-.box .items .order a{
-    padding: 3px 20px;
-    border: rgba(62,161,117,0.3) 2px solid;
-    margin: 0 !important;
-    border-radius: 10px; 
-    text-decoration: none;
-    color: #3ea175;
+  .plate .right-p{
+    height: 100%;
   }
-  .box .items .order a:hover{
-background-color: rgba(62,161,117,0.3);
-border:#3ea175 2px solid;
-color: #3ea175;
-  }
-.box .items .text{
-    margin: 0 10px 20px 10px;
-  }
+}
+
+@media only screen and (max-width:480px){
+ #works{
+  flex-direction: column;
+  flex-wrap: unset;
+ }
+ .plate{
+   flex: 100%;
+   max-width: 100%;
+ }
+}

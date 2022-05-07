@@ -5,6 +5,7 @@
     padding: 20px;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
+    border-right: 2px solid #a5aaad;
 }
 
 .sidebar__title{
