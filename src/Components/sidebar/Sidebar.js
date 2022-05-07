@@ -46,10 +46,12 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
                         <a href='#'>Projects</a>
                     </div>
                 </NavLink>
-                <div className='sidebar__link'>
-                    <i className='fa fa-address-card'></i>
-                    <a href='#'>Abouts</a>
-                </div>
+                <NavLink to="/abouts" className={(navData) => navData.isActive ? "active__menu__link" : ""}>
+                    <div className='sidebar__link'>
+                        <i className='fa fa-address-card'></i>
+                        <a href='#'>Abouts</a>
+                    </div>
+                </NavLink>
 
             </div>
         </div >
