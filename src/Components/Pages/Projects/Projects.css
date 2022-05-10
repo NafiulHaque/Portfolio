@@ -30,7 +30,7 @@
     height: 100%;
     overflow: hidden;
     border-radius: 15px;
-    border: 2px solid #a5aaad;
+    border: 2px solid #3ea175;
   
   }
   .project-flex .items .item-thumb.y{
@@ -52,19 +52,20 @@
     border-radius: 13px;
   }
 .project-flex .items .item-thumb .btn-1 a{
-    border: 2px solid #1985ff;
     text-decoration: none;
     border-radius: 10px;
     padding: 3px 20px;
-    background-color: #fff;
-   
+    border: rgba(62,161,117,0.3) 2px solid;
+    color: #3ea175;
     transition: ease .5s;
     transform: translateY(100%);
     z-index: 7;
+    background-color: rgba(0, 0, 0, 0.7);
   }
 .project-flex .items .item-thumb .btn-1 a:hover{
-    background-color: #1985ff ;
-    color: #fff;
+    background-color: rgba(0, 0, 0, 0.9) ;
+    color: #3ea175;
+    border: #3ea175 2px solid;
   }
 .project-flex .items .item-thumb .btn-1:hover{
     opacity: 1;

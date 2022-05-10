@@ -3,9 +3,12 @@
 }
 .box{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    grid-gap: 20px;
     flex-wrap: wrap;
     color:#a5aaad;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 .box .items{
   width: 300px;
@@ -18,7 +21,7 @@
   align-items: center;
   /* border: #1985ff 2px solid; */
   box-shadow: 0 0 21px rgba(0,0,0,.27); 
-  margin-top: 20px;
+  /* margin-top: 10px; */
   padding: 10px;
   }
 .box .items .img{
