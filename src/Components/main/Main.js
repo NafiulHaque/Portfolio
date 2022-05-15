@@ -1,6 +1,7 @@
 import React from 'react';
 import Services from '../Pages/Services/Services';
 import Works from '../Pages/Works/Works';
+import Projects from '../Pages/Projects/Projects';
 import "./Main.css";
 
 import himg from "../../img/IMG_20201107_153505.jpg"
@@ -16,6 +17,7 @@ const Main = () => {
             <Services />
             <h1>Works On</h1>
             <Works />
+            <Projects />
         </div>
     )
 }

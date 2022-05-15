@@ -13,16 +13,16 @@ const Navbar = ({ sidebarOpen, openSidebar }) => {
                 <a href='#' className='active_link'>Freelancher</a>
             </div>
             <div className='navbar__right'>
-                <a href='#'>
+                <a target="_blank" href='https://www.facebook.com/nafiulhaque22/'>
                     <i className='fa-brands fa-facebook-f'></i>
                 </a>
-                <a href='#'>
+                <a target="_blank" href='https://twitter.com/NHPRANTOO'>
                     <i className='fa-brands fa-twitter'></i>
                 </a>
-                <a href='#' >
+                <a target="_blank" href='https://www.linkedin.com/in/nafiulhaque22/' >
                     <i className='fa-brands fa-linkedin-in'></i>
                 </a>
-                <a href='#' >
+                <a target="_blank" href='https://github.com/NafiulHaque/' >
                     <i className='fa-brands fa-github'></i>
                 </a>
             </div>

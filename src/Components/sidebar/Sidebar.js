@@ -19,7 +19,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
                 </div>
             </div>
             <div className='sidebar__menu'>
-                <NavLink to="/" className={(navData) => navData.isActive ? "active__menu__link" : ""}>
+                <NavLink to="/" className={(navData) => navData.isActive ? "active__menu__link" : ""} onClick={() => closeSidebar()}>
                     <div className='sidebar__link'>
                         <i className='fa fa-home'></i>
                         <span>Home</span>
@@ -28,25 +28,25 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
 
 
                 <h2>OP</h2>
-                <NavLink to="/Services" className={(navData) => navData.isActive ? "active__menu__link" : ""}>
+                <NavLink to="/Services" className={(navData) => navData.isActive ? "active__menu__link" : ""} onClick={() => closeSidebar()}>
                     <div className='sidebar__link'>
                         <i class="fa fa-desktop"></i>
                         <a href='#'>Services</a>
                     </div>
                 </NavLink>
-                <NavLink to="/works" className={(navData) => navData.isActive ? "active__menu__link" : ""}>
+                <NavLink to="/works" className={(navData) => navData.isActive ? "active__menu__link" : ""} onClick={() => closeSidebar()}>
                     <div className='sidebar__link'>
                         <i class="fa fa-briefcase"></i>
                         <a href='#'>Works On</a>
                     </div>
                 </NavLink>
-                <NavLink to="/projects" className={(navData) => navData.isActive ? "active__menu__link" : ""}>
+                <NavLink to="/projects" className={(navData) => navData.isActive ? "active__menu__link" : ""} onClick={() => closeSidebar()}>
                     <div className='sidebar__link'>
                         <i className='fa fa-file'></i>
                         <a href='#'>Projects</a>
                     </div>
                 </NavLink>
-                <NavLink to="/abouts" className={(navData) => navData.isActive ? "active__menu__link" : ""}>
+                <NavLink to="/abouts" className={(navData) => navData.isActive ? "active__menu__link" : ""} onClick={() => closeSidebar()}>
                     <div className='sidebar__link'>
                         <i className='fa fa-address-card'></i>
                         <a href='#'>Abouts</a>

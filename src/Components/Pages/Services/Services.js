@@ -44,9 +44,8 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="items hvr-grow">
-                        <div className="img"
-                        >
-                        </div>
+                        <img src={cover1} className="img"
+                        />
                         <div className="order hvr-buzz">
                             <a href="">Order Now</a>
                         </div>

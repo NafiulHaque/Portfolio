@@ -23,8 +23,8 @@
     font-weight: 700;
 }
 .navbar__left :hover{
-    color: #265acc;
-    border-bottom:3px solid #265acc;
+    color: #3ea175;
+    border-bottom:3px solid #3ea175;
     padding-bottom: 12px;
 }
 /* .navbar__left .active_link{
@@ -50,6 +50,12 @@
     background-color: #020509;
     box-shadow: 2px 2px 5px #d9d9d9 , -2px -2px 5px #ffffff;
     padding: 5px;
+}
+
+.navbar__right >a>i:hover{
+    color: #3ea175;
+    box-shadow: 2px 2px 5px #3ea175 , -2px -2px 5px #3ea175;
+    
 }
 
 @media only screen and (max-width:978px){
