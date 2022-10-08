@@ -42,9 +42,16 @@ export default function Home() {
             <AiFillTwitterCircle />
             <AiFillYoutube />
           </div>
-          <div className='relative bg-gradient-to-b from-teal-500 overflow-hidden rounded-full w-40 h-40 mt-5 mx-auto'>
-            <Image src={nafi} layout='fill' objectFit='cover' />
+
+          <div className='relative mx-auto mt-5'>
+            <div className='absolute animate-ping rounded-full border dark:border-gray-400 border-gray-700 h-40 w-40 z-10'></div>
+            <div className='relative bg-gradient-to-b from-teal-500 overflow-hidden rounded-full w-40 h-40  mx-auto'>
+
+              <Image src={nafi} layout='fill' objectFit='cover' />
+
+            </div>
           </div>
+
         </section>
 
 
@@ -52,23 +59,23 @@ export default function Home() {
           <div className='max-h-screen px-10 md:px-20 relative top-[100px] '>
             <h2 className='text-3xl font-bold uppercase
            text-center tracking-[14px] text-teal-500 mb-10'>Services</h2>
-            <div className='grid grid-cols-2 gap-2'>
-              <div className='flex flex-col items-center rounded-lg bg-gray-200 shadow-md min-h-[200px] p-4 dark:bg-gray-800'>
+            <div className='grid grid-cols-2 md:grid-cols-3 gap-2 w-full'>
+              <div className=' flex flex-col items-center rounded-lg bg-gray-200 shadow-md min-h-[200px] p-4 dark:bg-gray-800'>
                 <GiSpiderWeb className='text-3xl m-3 text-teal-500' />
                 <h2 className='uppercase font-semibold text-2xl tracking-[2px] m-3 text-gra-900 dark:text-gray-200'>website Design</h2>
                 <p className='text-gray-600 dark:text-gray-400'>Lorem ipsoum is the best layout for any bulk design</p>
               </div>
-              <div className='flex flex-col items-center rounded-lg bg-gray-200 shadow-md min-h-[200px] p-4 dark:bg-gray-800'>
+              <div className=' flex flex-col items-center rounded-lg bg-gray-200 shadow-md min-h-[200px] p-4 dark:bg-gray-800'>
                 <GiSpiderWeb className='text-3xl m-3 text-teal-500' />
                 <h2 className='uppercase font-semibold text-2xl tracking-[2px] m-3 text-gra-900 dark:text-gray-200'>website Design</h2>
                 <p className='text-gray-600 dark:text-gray-400'>Lorem ipsoum is the best layout for any bulk design</p>
               </div>
-              <div className='flex flex-col items-center rounded-lg bg-gray-200 shadow-md min-h-[200px] p-4 dark:bg-gray-800'>
+              <div className=' flex flex-col items-center rounded-lg bg-gray-200 shadow-md min-h-[200px] p-4 dark:bg-gray-800'>
                 <GiSpiderWeb className='text-3xl m-3 text-teal-500' />
                 <h2 className='uppercase font-semibold text-2xl tracking-[2px] m-3 text-gra-900 dark:text-gray-200'>website Design</h2>
                 <p className='text-gray-600 dark:text-gray-400'>Lorem ipsoum is the best layout for any bulk design</p>
               </div>
-              <div className='flex flex-col items-center rounded-lg bg-gray-200 shadow-md min-h-[200px] p-4 dark:bg-gray-800'>
+              <div className=' col-start-2 flex flex-col items-center rounded-lg bg-gray-200 shadow-md min-h-[200px] p-4 dark:bg-gray-800'>
                 <GiSpiderWeb className='text-3xl m-3 text-teal-500' />
                 <h2 className='uppercase font-semibold text-2xl tracking-[2px] m-3 text-gra-900 dark:text-gray-200'>website Design</h2>
                 <p className='text-gray-600 dark:text-gray-400'>Lorem ipsoum is the best layout for any bulk design</p>
