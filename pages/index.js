@@ -5,6 +5,7 @@ import { GiSpiderWeb } from 'react-icons/gi'
 import Image from 'next/image';
 import nafi from '../public/nafi.png';
 import { useState } from 'react';
+import Work from './work';
 
 
 
@@ -82,6 +83,10 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </section>
+
+        <section className='snap-center h-screen snap-always'>
+          <Work />
         </section>
       </main>
 
