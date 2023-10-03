@@ -1,31 +1,32 @@
-.navbar{
-    background-color: #020509;
-    grid-area: nav;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 30px 0 30px;
-    border-bottom: 1px solid lightgray;
+.navbar {
+  background-color: #020509;
+  grid-area: nav;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+  border-bottom: 1px solid lightgray;
 }
-.nav_icon{
-    display: none;
+.nav_icon {
+  display: none;
 }
-.nav_icon>i{
-    font-size: 26px;
-    color: #a5aaad;
+.nav_icon > i {
+  font-size: 26px;
+  width: 26px;
+  color: #a5aaad;
 }
-.navbar__left>a{
-    margin-right: 30px;
-    text-decoration: none;
-    color: #a5aaad;
-    font-size: 15px;
-    font-weight: 700;
+.navbar__left > a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: #a5aaad;
+  font-size: 15px;
+  font-weight: 700;
 }
-.navbar__left :hover{
-    color: #3ea175;
-    border-bottom:3px solid #3ea175;
-    padding-bottom: 12px;
+.navbar__left :hover {
+  color: #3ea175;
+  border-bottom: 3px solid #3ea175;
+  padding-bottom: 12px;
 }
 /* .navbar__left .active_link{
     color: #265acc;
@@ -34,38 +35,37 @@
 
 } */
 
-.navbar__right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.navbar__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.navbar__right>a{
-    margin-left: 20px;
-    text-decoration: none;
+.navbar__right > a {
+  margin-left: 20px;
+  text-decoration: none;
 }
-.navbar__right >a>i{
-    color: #a5aaad;
-    font-size: 26px;
-    border-radius: 50%;
-    background-color: #020509;
-    box-shadow: 2px 2px 5px #d9d9d9 , -2px -2px 5px #ffffff;
-    padding: 5px;
-}
-
-.navbar__right >a>i:hover{
-    color: #3ea175;
-    box-shadow: 2px 2px 5px #3ea175 , -2px -2px 5px #3ea175;
-    
+.navbar__right > a > i {
+  color: #a5aaad;
+  width: 26px;
+  font-size: 26px;
+  border-radius: 50%;
+  background-color: #020509;
+  box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffffff;
+  padding: 5px;
 }
 
-@media only screen and (max-width:978px){
-    .nav_icon{
-        display: inline;
-    }
-
+.navbar__right > a > i:hover {
+  color: #3ea175;
+  box-shadow: 2px 2px 5px #3ea175, -2px -2px 5px #3ea175;
 }
-@media only screen and (max-width:480px){
-    .navbar__left{
-        display: none;
-    }
+
+@media only screen and (max-width: 978px) {
+  .nav_icon {
+    display: inline;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .navbar__left {
+    display: none;
+  }
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import Services from '../Pages/Services/Services';
 import Works from '../Pages/Works/Works';
 import Projects from '../Pages/Projects/Projects';
+import Skills from '../Pages/Skills/Skills';
 import "./Main.css";
 
 import himg from "../../img/IMG_20201107_153505.jpg"
@@ -14,10 +15,12 @@ const Main = () => {
                 <p>Freelance specialist in responsive website design,
                     front-end development, react, pure CSS project etc.</p>
             </div>
-            <Services />
+            <Projects />
             <h1>Works On</h1>
             <Works />
-            <Projects />
+            <Services />
+            <Skills />
+
         </div>
     )
 }

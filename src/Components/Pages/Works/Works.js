@@ -19,7 +19,7 @@ const Works = () => {
                         the 1500s, when an unknown printer took a galley
                         of type and scrambled it to make a type specimen
                         book.</p>
-                    <a href="#" className="btn" alt="button">See More</a>
+                    <a href="/#" className="btn" alt="button">See More</a>
                 </div>
                 <img className="right-p" src={img3} alt="web application" />
 
@@ -34,7 +34,7 @@ const Works = () => {
                         the 1500s, when an unknown printer took a galley
                         of type and scrambled it to make a type specimen
                         book.</p>
-                    <a href="#" className="btn" alt="button">See More</a>
+                    <a href="/#" className="btn" alt="button">See More</a>
                 </div>
                 <img className="right-p" src={img2} alt="ecommerce" />
             </div>
@@ -47,7 +47,7 @@ const Works = () => {
                         the 1500s, when an unknown printer took a galley
                         of type and scrambled it to make a type specimen
                         book.</p>
-                    <a href="#" className="btn" alt="button">See More</a>
+                    <a href="/#" className="btn" alt="button">See More</a>
                 </div>
                 <img className="right-p" src={img1} alt="ecommerce" />
             </div>
@@ -60,7 +60,7 @@ const Works = () => {
                         the 1500s, when an unknown printer took a galley
                         of type and scrambled it to make a type specimen
                         book.</p>
-                    <a href="#" className="btn" alt="button">See More</a>
+                    <a href="/#" className="btn" alt="button">See More</a>
                 </div>
                 <img className="right-p" src={img4} alt="ecommerce" />
             </div>

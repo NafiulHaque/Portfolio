@@ -1,0 +1,65 @@
+/* Skills.css */
+
+.skills-container {
+  background-color: #191a19;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #d9d9d9;
+}
+
+.skills-chart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.skill-item {
+  width: 300px;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #191a19;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(4, 155, 14, 0.5);
+}
+
+.skill-name {
+  font-size: 1.2em;
+  color: #d9d9d9;
+}
+
+.progress-container {
+  background-color: #eee;
+  border-radius: 5px;
+  height: 20px;
+  margin-top: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  transition: width 0.5s ease-in-out;
+  background: linear-gradient(
+    90deg,
+    grey,
+    #3ea175
+  ); /* Gradient from red to yellow */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-text {
+  position: absolute;
+  right: 5px;
+}
