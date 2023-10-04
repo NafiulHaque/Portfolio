@@ -1,43 +1,42 @@
-.main{
-    grid-area: main;
-    background-color: #020509;
+.main {
+  grid-area: main;
+  background-color: var(--bg-color-1);
 }
-.main .hero{
-    height: 70vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-direction: column;
-    position: relative;
-    padding-bottom: 15px;
+.main .hero {
+  height: 70vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 15px;
 }
 .main .hero h1,
-.main .hero p{
-    z-index: 5;
-    width: 50%;
-    text-align: center;
+.main .hero p {
+  z-index: 5;
+  width: 50%;
+  text-align: center;
+}
+.main .hero h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: 800;
+}
 
+.main .hero p {
+  color: var(--text-color-1);
+  font-weight: 600;
 }
-.main .hero h1{
-    text-transform: uppercase;
-    letter-spacing: 0.3rem;
-    font-weight: 800;
-}
-
-.main .hero p{
-    color: #3ea175;
-    font-weight: 600;
-}
-.main .hero::before{
-    content: "";
-    position: absolute;
-    background-color: #020509;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0.7;
+.main .hero::before {
+  content: "";
+  position: absolute;
+  background-color: var(--bg-color-1);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
 }

@@ -11,7 +11,7 @@ const Works = () => {
     return (
         <div id="works">
             <div className="plate">
-                <div className="left-p text-green">
+                <div className="left-p">
                     <h3>Custom Web Application</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing
                         and typesetting industry. Lorem Ipsum has been
@@ -26,7 +26,7 @@ const Works = () => {
 
             </div>
             <div className="plate">
-                <div className="left-p text-green">
+                <div className="left-p">
                     <h3>E-commerce</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing
                         and typesetting industry. Lorem Ipsum has been
@@ -39,7 +39,7 @@ const Works = () => {
                 <img className="right-p" src={img2} alt="ecommerce" />
             </div>
             <div className="plate">
-                <div className="left-p text-green">
+                <div className="left-p">
                     <h3>Full Stack Development</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing
                         and typesetting industry. Lorem Ipsum has been
@@ -52,7 +52,7 @@ const Works = () => {
                 <img className="right-p" src={img1} alt="ecommerce" />
             </div>
             <div className="plate">
-                <div className="left-p text-green">
+                <div className="left-p">
                     <h3>WordPress Development</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing
                         and typesetting industry. Lorem Ipsum has been

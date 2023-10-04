@@ -10,13 +10,13 @@
   justify-content: center;
   grid-gap: 20px;
   flex-wrap: wrap;
-  color: #a5aaad;
+  color: var(--text-color-1);
   margin-top: 20px;
   margin-bottom: 20px;
 }
 .box .items {
   width: 300px;
-  background-color: #191a19;
+  background-color: var(--bg-color-2);
   height: 320px;
   border-radius: 15px;
   display: flex;
@@ -37,16 +37,16 @@
 }
 .box .items .order a {
   padding: 3px 20px;
-  border: rgba(62, 161, 117, 0.3) 2px solid;
+  border: var(--text-color-2) 2px solid;
   margin: 0 !important;
   border-radius: 10px;
   text-decoration: none;
-  color: #3ea175;
+  color: var(--text-color-2);
 }
 .box .items .order a:hover {
-  background-color: rgba(62, 161, 117, 0.3);
-  border: #3ea175 2px solid;
-  color: #3ea175;
+  background-color: var(--bg-color-2);
+  border: var(--text-color-2) 2px solid;
+  color: var(--text-color-2);
 }
 .box .items .text {
   margin: 0 10px 20px 10px;

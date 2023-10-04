@@ -10,6 +10,7 @@ import Services from './Components/Pages/Services/Services';
 import Works from './Components/Pages/Works/Works';
 import Projects from './Components/Pages/Projects/Projects';
 import Abouts from './Components/Pages/Abouts/Abouts';
+import StyleSwitcher from './Components/styleSwitcher/StyleSwitcher';
 
 function App() {
   const [sidebarOpen, setSideBarOpen] = useState(false);
@@ -33,6 +34,9 @@ function App() {
       </Routes>
 
       <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar} />
+      <StyleSwitcher />
+
+
 
     </div>
   );
