@@ -32,12 +32,31 @@ const StyleSwitcher = () => {
 
 
     // --------------color-theme-handler----------------
+    // --------------dark-mode-handler----------------
+    const [light, setLight] = useState(false);
+    const handleDarkMode = () => {
+        setLight(!light);
+    };
+
+    if (light) {
+        document.documentElement.style.setProperty('--bg-color-1', '#d9d9d9');
+        document.documentElement.style.setProperty('--text-color-1', '#484b6a');
+    } else {
+        document.documentElement.style.removeProperty('--bg-color-1', '#d9d9d9');
+        document.documentElement.style.removeProperty('--text-color-1', '#484b6a');
+    }
+
+
+
+    // --------------dark-mode-handler----------------
+
+
     return (
         <div className={`style-switcher ${isToggled ? 'open' : ''}`} >
             <div className='style-switcher-toggler s-icon' onClick={handleToggle}>
                 <i class="fa fa-cog spin"></i>
             </div>
-            <div className='day-night s-icon'>
+            <div className='day-night s-icon' onClick={handleDarkMode}>
                 <i className='fa fa-moon'></i>
             </div>
             <h4>Theme Colors</h4>

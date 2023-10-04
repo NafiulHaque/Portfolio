@@ -49,7 +49,7 @@
   font-weight: 700;
 }
 .sidebar__link {
-  color: var(--text-color-3);
+  color: var(--text-color-1);
   padding: 10px;
   border-radius: 3px;
   margin-bottom: 5px;

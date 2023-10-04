@@ -24,16 +24,17 @@
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   font-weight: 800;
+  color: var(--text-color-3);
 }
 
 .main .hero p {
-  color: var(--text-color-1);
+  color: var(--text-color-3);
   font-weight: 600;
 }
 .main .hero::before {
   content: "";
   position: absolute;
-  background-color: var(--bg-color-1);
+  background-color: #000000a9;
   top: 0;
   left: 0;
   height: 100%;
