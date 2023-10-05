@@ -18,7 +18,7 @@ const Skills = () => {
 
     return (
         <section id="skills" className="skills-container">
-            <h2 className="section-title">Skills</h2>
+            {/* <h2 className="section-title">Skills</h2> */}
             <div className="skills-chart">
                 {skillsList.map((skill, index) => (
                     <div key={index} className="skill-item">

@@ -2,13 +2,13 @@
 
 .skills-container {
   background-color: var(--bg-color-1);
-  padding: 60px 0;
+  padding: 10px 5px;
   text-align: center;
 }
 
 .section-title {
-  font-size: 2em;
-  margin-bottom: 20px;
+  font-size: 1em;
+  margin-bottom: 5px;
   color: var(--text-color-1);
 }
 
@@ -20,9 +20,9 @@
   justify-content: space-around;
 }
 .skill-item {
-  width: 300px;
-  margin: 20px 0;
-  padding: 10px;
+  width: 150px;
+  margin: 10px 0;
+  padding: 7px;
   background-color: var(--bg-color-1);
   border: 1px solid var(--text-color-1);
   border-radius: 10px;
@@ -30,15 +30,15 @@
 }
 
 .skill-name {
-  font-size: 1.2em;
+  font-size: 0.8em;
   color: var(--text-color-1);
 }
 
 .progress-container {
   background-color: var(--text-color-1);
   border-radius: 5px;
-  height: 20px;
-  margin-top: 10px;
+  height: 15px;
+  margin-top: 5px;
   position: relative;
   overflow: hidden;
 }
@@ -50,7 +50,7 @@
   transition: width 0.5s ease-in-out;
   background: linear-gradient(
     90deg,
-    var(--text-color-3),
+    var(--bg-color-2),
     var(--text-color-2)
   ); /* Gradient from red to yellow */
   color: var(--text-color-3);
