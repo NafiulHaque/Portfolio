@@ -2,11 +2,19 @@ import "./Abouts.css";
 import React from 'react';
 import pro from "../../../img/profile/profile.jpg"
 import Skills from "../Skills/Skills";
+import { useReactToPrint } from 'react-to-print';
 
 const Abouts = () => {
+
+    const cvRef = React.useRef();
+
+    const handlePrint = useReactToPrint({
+        content: () => cvRef.current,
+    });
+
     return (
-        <div className="abouts">
-            <section className="about section">
+        <div className="abouts" >
+            <section className="about section" ref={cvRef}>
                 <div className="contain">
                     <div className="row">
                         <div className="section-title">
@@ -15,7 +23,7 @@ const Abouts = () => {
 
 
                     </div>
-                    <div className="about-content">
+                    <div className="about-content" >
                         <div className="row">
                             <div className="about-text">
                                 <h3>I'm Nafiul Haque and <span>Web Developer</span></h3>
@@ -60,7 +68,7 @@ const Abouts = () => {
                                 </div>
                                 <div className="row">
                                     <div className="buttons">
-                                        <a href="#" className="btn">Download CV</a>
+                                        <a href="#" className="btn" onClick={handlePrint} >Download CV</a>
                                         <a href="#" className="btn hire-me">Hire Me</a>
                                     </div>
                                 </div>
