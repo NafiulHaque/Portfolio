@@ -1,0 +1,121 @@
+/* ContactForm.css */
+#contact {
+  grid-area: main;
+}
+.contact {
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  margin-top: 10%;
+  background-color: var(--bg-color-2);
+  padding: 15px;
+}
+.text-box {
+  flex: 1 0 50%;
+}
+
+/* Contact form container */
+.contact-form {
+  flex: 2 2 40%;
+  max-width: 400px;
+  /* margin: 0 auto; */
+  padding: 20px;
+  margin-left: 10px;
+  /* margin: 20px; */
+  background-color: var(--bg-color-2);
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--bg-color-2);
+}
+
+/* Heading */
+.contact h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: var(--text-color-1);
+}
+.contact .text-box p:first-child {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.contact .text-box p.body {
+  margin-top: 20px;
+  font-weight: 500;
+  line-height: 1.2em;
+  text-align: justify;
+  font-size: 0.8rem;
+}
+.contact .text-box .basic-contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 0.9em;
+  margin-bottom: 30px;
+}
+
+/* Form field labels */
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: var(--text-color-1);
+}
+
+/* Form input and textarea fields */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid var(--text-color-2);
+  border-radius: 5px;
+  background-color: var(--bg-color-1);
+  color: var(--text-color-1);
+}
+
+/* Form button */
+.contact-form button[type="submit"] {
+  background-color: var(--text-color-2);
+  color: var(--bg-color-1);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: var(--bg-color-1);
+  color: var(--text-color-1);
+}
+
+/* Success message */
+.success-message {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: var(--bg-color-2);
+  color: var(--text-color-1);
+  text-align: center;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .contact-form {
+    max-width: 100%;
+    padding: 15px;
+  }
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    margin-bottom: 10px;
+  }
+}

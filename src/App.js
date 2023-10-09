@@ -11,6 +11,7 @@ import Works from './Components/Pages/Works/Works';
 import Projects from './Components/Pages/Projects/Projects';
 import Abouts from './Components/Pages/Abouts/Abouts';
 import StyleSwitcher from './Components/styleSwitcher/StyleSwitcher';
+import Contact from './Components/Pages/contact/Contact';
 
 function App() {
   const [sidebarOpen, setSideBarOpen] = useState(false);
@@ -30,6 +31,7 @@ function App() {
         <Route path='/works' element={<Works />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/abouts' element={<Abouts />} />
+        <Route path='/contact' element={<Contact />} />
 
       </Routes>
 

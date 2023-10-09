@@ -19,7 +19,6 @@ const Main = () => {
             <h1>Works On</h1>
             <Works />
             <Services />
-            <Skills />
 
         </div>
     )

@@ -27,7 +27,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
                 </NavLink>
 
 
-                <h2>OP</h2>
+                <h2>-----</h2>
                 <NavLink to="/Services" className={(navData) => navData.isActive ? "active__menu__link" : ""} onClick={() => closeSidebar()}>
                     <div className='sidebar__link'>
                         <i class="fa fa-desktop"></i>
@@ -50,6 +50,12 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
                     <div className='sidebar__link'>
                         <i className='fa fa-address-card'></i>
                         <a href='#'>Abouts</a>
+                    </div>
+                </NavLink>
+                <NavLink to="/contact" className={(navData) => navData.isActive ? "active__menu__link" : ""} onClick={() => closeSidebar()}>
+                    <div className='sidebar__link'>
+                        <i className='fa fa-message'></i>
+                        <a href='#'>Contact</a>
                     </div>
                 </NavLink>
 
