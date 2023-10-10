@@ -20,7 +20,7 @@
   justify-content: space-around;
 }
 .skill-item {
-  width: 150px;
+  width: 130px;
   margin: 10px 0;
   padding: 7px;
   background-color: var(--bg-color-1);
@@ -62,4 +62,13 @@
 .progress-text {
   position: absolute;
   right: 5px;
+}
+
+@media (max-width: 600px) {
+  .skill-item {
+    width: 100%;
+  }
+  .skills-container {
+    width: 100%;
+  }
 }

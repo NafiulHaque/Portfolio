@@ -2,6 +2,49 @@
   grid-area: main;
   /* display: flex; */
 }
+
+@media all {
+  .page-break {
+    display: none;
+  }
+}
+
+@media print {
+  html,
+  body {
+    height: initial !important;
+    overflow: initial !important;
+    -webkit-print-color-adjust: exact;
+  }
+}
+@media print {
+  .page-break {
+    margin-top: 2rem;
+    display: block;
+    page-break-after: always;
+  }
+  .about {
+    margin-top: 50px;
+  }
+  .skills-container {
+    background-color: #fff;
+  }
+  .buttons,
+  .section-title {
+    height: 0;
+    overflow: hidden;
+  }
+  .skill-item {
+    background-color: #fff;
+  }
+}
+
+@page {
+  size: auto;
+  /* margin: 20mm; */
+  /* margin-top: 20mm; */
+}
+
 .hidden {
   display: none;
 }
@@ -67,9 +110,9 @@
   margin-top: 20px;
 }
 .about .about-content .personal-info .info-item {
-  flex: 0 0 50%;
+  flex: 2 2 50%;
   max-width: 50%;
-  min-width: 200px;
+  min-width: 300px;
 }
 .about .about-content .personal-info .info-item p {
   font-weight: 600;
@@ -102,7 +145,7 @@
   background-color: var(--bg-color-2);
 }
 .about .about-content .skills {
-  flex: 0 0 40%;
+  flex: 2 2 40%;
   max-width: 40%;
   min-width: 300px;
   margin-top: 20px;
@@ -116,7 +159,7 @@
   flex: 0 0 50%;
   max-width: 50%;
   margin-top: 30px;
-  min-width: 400px;
+  min-width: 350px;
 }
 .about .about-content h3.title {
   font-size: 24px;
@@ -184,4 +227,41 @@
   font-size: 16px;
   text-align: justify;
   color: var(--text-color-1);
+}
+
+@media (max-width: 600px) {
+  .about .about-content .personal-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .about .about-content .personal-info .info-item {
+    flex: 2 2 100%;
+    max-width: 100%;
+    /* min-width: 300px; */
+  }
+  .about .about-content .education,
+  .about .about-content .experience {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 30px;
+    /* min-width: 350px; */
+  }
+  .about .about-content .skills {
+    flex: 2 2 100%;
+    max-width: 100%;
+    min-width: 300px;
+    margin-top: 20px;
+  }
+  .about .about-content .personal-info .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: red; */
+    font-weight: 800;
+    margin-top: 40px;
+  }
+  .about .about-content .personal-info .buttons a {
+    margin-top: 10px;
+  }
 }

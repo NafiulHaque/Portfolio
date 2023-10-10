@@ -79,6 +79,7 @@ const Abouts = () => {
                             </div>
 
                         </div>
+                        <div className="page-break" />
                         <div className="row">
                             <div className="education">
                                 <h3 className="title">Education</h3>
@@ -93,10 +94,10 @@ const Abouts = () => {
                                                 <h3 className="timeline-date">
                                                     <i className="fa fa-calendar"></i> 2017-2023
                                                 </h3>
-                                                <h4 className="timeline-title">B.Sc in EEE</h4>
-                                                <p className="timeline-text">he href attribute requires a valid value to be accessible.
-                                                    Provide a valid, navigable address as the href value.
-                                                    If you cannot provide a valid href, but still need the element to resemble a link</p>
+                                                <h4 className="timeline-title">B.Sc</h4>
+                                                <p className="timeline-text">Subject: Electrical & Electronic Engineering <br />
+                                                    Institute: TMSS Engineering College,Bogura.<br />
+                                                    CGPA: 2.6 out of 4 <br /> Passing Year: 2023  </p>
                                             </div>
                                             {/* ====timeline item ====== */}
                                             <div className="timeline-item">
@@ -104,12 +105,12 @@ const Abouts = () => {
 
                                                 </div>
                                                 <h3 className="timeline-date">
-                                                    <i className="fa fa-calendar"></i> 2017-2023
+                                                    <i className="fa fa-calendar"></i> 2015-2017
                                                 </h3>
-                                                <h4 className="timeline-title">B.Sc in EEE</h4>
-                                                <p className="timeline-text">he href attribute requires a valid value to be accessible.
-                                                    Provide a valid, navigable address as the href value.
-                                                    If you cannot provide a valid href, but still need the element to resemble a link</p>
+                                                <h4 className="timeline-title">HSC</h4>
+                                                <p className="timeline-text">Subject: Science <br />
+                                                    Institute: Armed Police Battalion Public School & College.<br />
+                                                    GPA: 5 out of 5 <br /> Passing Year: 2017  </p>
                                             </div>
                                             {/* ====timeline item ====== */}
                                             <div className="timeline-item">
@@ -117,12 +118,12 @@ const Abouts = () => {
 
                                                 </div>
                                                 <h3 className="timeline-date">
-                                                    <i className="fa fa-calendar"></i> 2017-2023
+                                                    <i className="fa fa-calendar"></i> 2012-2015
                                                 </h3>
-                                                <h4 className="timeline-title">B.Sc in EEE</h4>
-                                                <p className="timeline-text">he href attribute requires a valid value to be accessible.
-                                                    Provide a valid, navigable address as the href value.
-                                                    If you cannot provide a valid href, but still need the element to resemble a link</p>
+                                                <h4 className="timeline-title">SSC</h4>
+                                                <p className="timeline-text">Subject: Science <br />
+                                                    Institute: Gabtali Pilot High School.<br />
+                                                    GPA: 5 out of 5 <br /> Passing Year: 2015  </p>
                                             </div>
 
                                         </div>
@@ -130,7 +131,7 @@ const Abouts = () => {
                                 </div>
                             </div>
                             <div className="experience">
-                                <h3 className="title">Experience</h3>
+                                <h3 className="title">Training</h3>
                                 <div className="row">
                                     <div className="timeline-box">
                                         <div className="timeline">
@@ -140,12 +141,12 @@ const Abouts = () => {
 
                                                 </div>
                                                 <h3 className="timeline-date">
-                                                    <i className="fa fa-calendar"></i> 2017-2023
+                                                    <i className="fa fa-calendar"></i> 6 months
                                                 </h3>
-                                                <h4 className="timeline-title">B.Sc in EEE</h4>
-                                                <p className="timeline-text">he href attribute requires a valid value to be accessible.
-                                                    Provide a valid, navigable address as the href value.
-                                                    If you cannot provide a valid href, but still need the element to resemble a link</p>
+                                                <h4 className="timeline-title">Web Design & Development</h4>
+                                                <p className="timeline-text">Topic: HTML,CSS,JavaScript,PHP,Wordpress <br />
+                                                    Institute: Learning & Earning Development Project(LEDP).<br />
+                                                    Year: 2020  </p>
                                             </div>
                                             {/* ====timeline item ====== */}
                                             <div className="timeline-item">
@@ -153,26 +154,14 @@ const Abouts = () => {
 
                                                 </div>
                                                 <h3 className="timeline-date">
-                                                    <i className="fa fa-calendar"></i> 2017-2023
+                                                    <i className="fa fa-calendar"></i> 2 months
                                                 </h3>
-                                                <h4 className="timeline-title">B.Sc in EEE</h4>
-                                                <p className="timeline-text">he href attribute requires a valid value to be accessible.
-                                                    Provide a valid, navigable address as the href value.
-                                                    If you cannot provide a valid href, but still need the element to resemble a link</p>
+                                                <h4 className="timeline-title">BUREAU OF MANPOWER, EMPLOYMENT AND TRAINING </h4>
+                                                <p className="timeline-text">Topic: Motor Driving   <br />
+                                                    Institute:Technical Training Center Bogra(TTC).<br />
+                                                    Year: 2019 </p>
                                             </div>
-                                            {/* ====timeline item ====== */}
-                                            <div className="timeline-item">
-                                                <div className="circle-dot">
 
-                                                </div>
-                                                <h3 className="timeline-date">
-                                                    <i className="fa fa-calendar"></i> 2017-2023
-                                                </h3>
-                                                <h4 className="timeline-title">B.Sc in EEE</h4>
-                                                <p className="timeline-text">he href attribute requires a valid value to be accessible.
-                                                    Provide a valid, navigable address as the href value.
-                                                    If you cannot provide a valid href, but still need the element to resemble a link</p>
-                                            </div>
 
                                         </div>
                                     </div>
