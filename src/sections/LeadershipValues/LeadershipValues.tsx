@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Award, Users, ShieldCheck, Heart } from 'lucide-react';
 
 const LeadershipValues = () => {

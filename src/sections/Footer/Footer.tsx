@@ -1,4 +1,3 @@
-import React from "react";
 import { Mail, Linkedin, Zap } from "lucide-react";
 
 const Hero = () => {

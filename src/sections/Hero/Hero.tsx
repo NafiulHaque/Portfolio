@@ -1,5 +1,5 @@
-import React from "react";
-import { MapPin, Download, Linkedin } from "lucide-react";
+
+import { MapPin, Download } from "lucide-react";
 
 const Hero = () => {
     return (

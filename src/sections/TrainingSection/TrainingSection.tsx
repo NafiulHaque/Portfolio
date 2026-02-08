@@ -1,5 +1,5 @@
-import React from 'react';
-import { Code, Zap, Truck, Award, Calendar, MapPin } from 'lucide-react';
+
+import { Code, Zap, Truck, Calendar, MapPin } from 'lucide-react';
 
 const TrainingSection = () => {
   const trainings = [
