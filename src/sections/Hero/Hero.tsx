@@ -26,8 +26,8 @@ const Hero = () => {
                     <div className="flex flex-wrap gap-4 mt-10 justify-start">
                         {/* Primary Action */}
                         <a
-                            href="/NafiulHaque_BScInEEE_1.5YEXP.pdf"
-                            download="Md_Nafiul_Haque_Resume.pdf"
+                            href="https://github.com/NafiulHaque/Portfolio/raw/typescript/src/assets/NafiulHaque_BScInEEE_1.5YEXP.pdf"
+                            download="NafiulHaque_BScInEEE_1.5YEXP.pdf"
                             className="group relative inline-flex items-center gap-3 bg-white text-slate-950 px-8 py-4 rounded-sm font-bold transition-all hover:bg-blue-600 hover:text-white"
                         >
                             <Download size={20} className="text-slate-950 group-hover:text-white transition-colors" />
@@ -54,7 +54,7 @@ const Hero = () => {
 
 
                             <img
-                                src="../src/assets/nafiulCoverPic.png"
+                                src="https://github.com/NafiulHaque/Portfolio/blob/typescript/src/assets/NHWoringCoverPic.png?raw=true"
                                 alt="Md. Nafiul Haque"
                                 className="w-full h-full object-cover object-center"
                             />
