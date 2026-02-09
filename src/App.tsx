@@ -8,6 +8,7 @@ import Experience from './sections/Experience/Experience';
 import Hero from './sections/Hero/Hero';
 import Footer from './sections/Footer/Footer';
 import WorkShowcase from './sections/WorkShowcase/WorkShowcase';
+import ImpactSection from './sections/ImpactSection/ImpactSection';
 
 function App() {
 
@@ -29,27 +30,13 @@ function App() {
       {/* --- HERO SECTION --- */}
       <Hero />
 
+
+
+
       {/* --- IMPACT METRICS --- */}
-      <section className="py-12 bg-slate-900/50 border-y border-slate-900">
-        <div className="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 overflow-hidden">
-          <div className="text-center">
-            <div className="text-3xl font-bold text-white">95%</div>
-            <div className="text-xs text-slate-500 uppercase tracking-widest mt-1 text-nowrap">Machine Uptime</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-white">30%</div>
-            <div className="text-xs text-slate-500 uppercase tracking-widest mt-1 text-nowrap">Downtime Reduction</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-white">40%</div>
-            <div className="text-xs text-slate-500 uppercase tracking-widest mt-1 text-nowrap">Repeat Issue Drop</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-white">20+</div>
-            <div className="text-xs text-slate-500 uppercase tracking-widest mt-1 text-nowrap">Monthly Breakdowns Resolved</div>
-          </div>
-        </div>
-      </section>
+
+      <ImpactSection />
+
 
       {/* --- WORK EXPERIENCE --- */}
       <Experience />

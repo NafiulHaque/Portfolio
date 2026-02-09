@@ -11,3 +11,20 @@ body {
 /* * {
   outline: 1px solid red !important;
 } */
+
+
+/* Add to your index.css */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-reveal {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
