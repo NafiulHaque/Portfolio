@@ -24,7 +24,7 @@ const LeadershipValues = () => {
             <h4 className="text-blue-400 font-mono text-sm uppercase mb-2">Best Team Member Award 2022</h4>
             <p className="text-slate-400 text-sm leading-relaxed">
               Awarded by the <span className="text-slate-200 font-medium">"School of Engineers"</span> for exceptional 
-              collaboration and contribution to technical projects. This recognition reflects my 
+              collaboration and contribution to carrier guide seminar projects. This recognition reflects my 
               commitment to collective success over individual achievement.
             </p>
           </div>

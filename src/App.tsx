@@ -7,14 +7,15 @@ import Projects from './sections/Projects/Projects';
 import Experience from './sections/Experience/Experience';
 import Hero from './sections/Hero/Hero';
 import Footer from './sections/Footer/Footer';
+import WorkShowcase from './sections/WorkShowcase/WorkShowcase';
 
 function App() {
 
   return (
     <div className="bg-slate-950 text-slate-200 min-h-screen font-sans selection:bg-blue-500/30">
       {/* --- NAVIGATION --- */}
-      <nav className="fixed w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-900">
-        <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <nav className="fixed w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-900 shadow-lg">
+        <div className="max-w-6xl mx-auto h-16 sm:px-4 lg:px-8 flex items-center justify-between ">
           <span className="text-xl font-bold tracking-tighter text-white">NH.</span>
           <div className="hidden md:flex gap-8 text-sm font-medium uppercase tracking-widest">
             <a href="#about" className="hover:text-blue-500 transition-colors">About</a>
@@ -30,7 +31,7 @@ function App() {
 
       {/* --- IMPACT METRICS --- */}
       <section className="py-12 bg-slate-900/50 border-y border-slate-900">
-        <div className="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 overflow-hidden">
           <div className="text-center">
             <div className="text-3xl font-bold text-white">95%</div>
             <div className="text-xs text-slate-500 uppercase tracking-widest mt-1 text-nowrap">Machine Uptime</div>
@@ -52,6 +53,9 @@ function App() {
 
       {/* --- WORK EXPERIENCE --- */}
       <Experience />
+
+      {/* --- WORK SHOWCASE --- */}
+      <WorkShowcase />
 
       {/* --- IOT PROJECT & SKILLS --- */}
       <Projects />

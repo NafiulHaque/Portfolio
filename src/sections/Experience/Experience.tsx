@@ -2,7 +2,7 @@
 
 const Experience = () => {
   return (
-     <section id="experience" className="py-12 px-6 bg-slate-900/20 border-t border-slate-800">
+     <section id="experience" className="py-12 px-6 bg-slate-900/20">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-white mb-12 flex items-center gap-4">
             Professional Experience <span className="h-px flex-1 bg-slate-800"></span>
@@ -30,7 +30,7 @@ const Experience = () => {
               </li>
             </ul>
           </div>
-          <section id="about" className="py-24 px-6 border-b border-slate-900">
+          <section id="about" className="py-12 px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-sm font-mono text-blue-500 uppercase tracking-[0.3em] mb-8">
             Professional Profile
