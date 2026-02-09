@@ -5,21 +5,21 @@ const WorkShowcase = () => {
         {
             title: "CIJ System Optimization",
             description: "Implemented RCA to identify ink viscosity issues, leading to a 40% reduction in repeat nozzle clogs.",
-            image: "https://raw.githubusercontent.com/NafiulHaque/Portfolio/39cfb0a9c95fd05d9ec0761ba6548d412970be57/src/assets/work/OfficeMaintanance.jpg", // Placeholder for Industrial Electronics
+            image: "https://github.com/NafiulHaque/Portfolio/blob/typescript/src/assets/work/OfficeMaintanance.jpg?raw=true", // Placeholder for Industrial Electronics
             tag: "Maintenance",
             icon: <Settings size={16} />
         },
         {
             title: "Laser Marking Installation",
             description: "Precision alignment and calibration of high-speed laser systems for pharmaceutical packaging lines.",
-            image: "https://raw.githubusercontent.com/NafiulHaque/Portfolio/39cfb0a9c95fd05d9ec0761ba6548d412970be57/src/assets/work/Laser.jpg", // Placeholder for Laser/Tech
+            image: "https://github.com/NafiulHaque/Portfolio/blob/typescript/src/assets/work/Laser.jpg?raw=true", // Placeholder for Laser/Tech
             tag: "Installation",
             icon: <Zap size={16} />
         },
         {
             title: "Safety & Compliance Audit",
             description: "Conducting CAPA audits to ensure electromechanical systems meet 100% industrial safety standards.",
-            image: "https://raw.githubusercontent.com/NafiulHaque/Portfolio/39cfb0a9c95fd05d9ec0761ba6548d412970be57/src/assets/work/RubyCement.jpg", // Placeholder for Engineering Lab
+            image: "https://github.com/NafiulHaque/Portfolio/blob/typescript/src/assets/work/RubyCement.jpg?raw=true", // Placeholder for Engineering Lab
             tag: "Safety",
             icon: <Shield size={16} />
         }
